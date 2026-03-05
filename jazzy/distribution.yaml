@@ -1508,7 +1508,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/facontidavide/cloudini-release.git
-      version: 1.0.1-1
+      version: 1.0.2-1
     source:
       test_pull_requests: true
       type: git
@@ -1944,11 +1944,19 @@ repositories:
       version: main
     status: developed
   data_tamer_tools:
+    doc:
+      type: git
+      url: https://gitlab.com/jlack/data_tamer_tools.git
+      version: main
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/jlack1987/data_tamer_tools-release.git
-      version: 0.2.1-1
+      url: https://github.com/ros2-gbp/data_tamer_tools-release.git
+      version: 0.3.0-1
+    source:
+      type: git
+      url: https://gitlab.com/jlack/data_tamer_tools.git
+      version: main
     status: developed
   dataspeed_can:
     doc:
@@ -2638,7 +2646,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/clearpath-gbp/ewellix_lift_common-release.git
-      version: 0.2.0-1
+      version: 0.2.1-2
     source:
       type: git
       url: https://github.com/clearpathrobotics/ewellix_lift_common.git
@@ -2734,7 +2742,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/fastdds-release.git
-      version: 2.14.5-2
+      version: 2.14.6-1
     source:
       test_commits: true
       test_pull_requests: false
@@ -3905,6 +3913,34 @@ repositories:
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
       version: devel
     status: developed
+  hri_actions_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros4hri/hri_actions_msgs.git
+      version: humble-devel
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros4hri/hri_actions_msgs-release.git
+      version: 2.5.0-1
+    source:
+      type: git
+      url: https://github.com/ros4hri/hri_actions_msgs.git
+      version: humble-devel
+  hri_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros4hri/hri_msgs.git
+      version: humble-devel
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros4hri/hri_msgs-release.git
+      version: 2.3.2-1
+    source:
+      type: git
+      url: https://github.com/ros4hri/hri_msgs.git
+      version: humble-devel
   husarion_components_description:
     release:
       tags:
@@ -4287,6 +4323,12 @@ repositories:
       type: git
       url: https://github.com/ros-tooling/keyboard_handler.git
       version: jazzy
+    status: developed
+  kinematic_pose_msgs:
+    source:
+      type: git
+      url: https://github.com/qleonardolp/kinematic_pose_msgs.git
+      version: master
     status: developed
   kinematics_interface:
     doc:
@@ -5036,7 +5078,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mavlink-gbp-release.git
-      version: 2025.12.12-1
+      version: 2026.3.3-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -5348,7 +5390,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mola_state_estimation-release.git
-      version: 2.1.0-1
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
@@ -5555,7 +5597,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 2.6.0-1
+      version: 2.7.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -6487,8 +6529,8 @@ repositories:
       - orbbec_description
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/orbbec_camera_v2-release.git
-      version: 2.6.3-5
+      url: https://github.com/orbbec/orbbec_camera_v2-release.git
+      version: 2.7.6-1
     source:
       type: git
       url: https://github.com/orbbec/OrbbecSDK_ROS2.git
@@ -7803,7 +7845,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros2/rclc.git
-      version: rolling
+      version: jazzy
     release:
       packages:
       - rclc
@@ -7813,12 +7855,12 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/rclc-release.git
-      version: 6.1.0-3
+      version: 6.1.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclc.git
-      version: rolling
+      version: jazzy
     status: developed
   rclcpp:
     doc:
@@ -8775,6 +8817,12 @@ repositories:
     source:
       type: git
       url: https://github.com/Kinovarobotics/ros2_kortex.git
+      version: main
+    status: developed
+  ros2_medkit:
+    source:
+      type: git
+      url: https://github.com/selfpatch/ros2_medkit.git
       version: main
     status: developed
   ros2_ouster_drivers:
